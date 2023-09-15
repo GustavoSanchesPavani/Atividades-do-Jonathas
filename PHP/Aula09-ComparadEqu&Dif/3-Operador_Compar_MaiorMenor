@@ -1,0 +1,19 @@
+<?php
+
+/* Operadores de Maior ou Menor 
+
+Referencias:
+   1-
+   
+   2-
+   */
+
+// Exemplos
+$a = (2 > 3);   # False
+$a = (2 < 3);   # True
+$a = (2 >= 3);  # False
+$a = (2 <= 3);  # True
+$a = (2 > 3);   # False
+$a = (2 < 2);   # False
+
+?>
