@@ -14,13 +14,13 @@
 
 */
 $a = 'Está é uma string';
-$b = "Temos outra string";
+$b = "Temos outra string ";
 echo $a. "<br>";
 echo $b. "<br>";
 
 
 // Contatenação de "String"
-echo $a. "Cocatenada com - ". $b . "<br>";
+echo $a. " cocatenada com - ". $b . "<br>";
 
 // Populando a String
 # Observe que a variavel que contem a "String" funciona um "array"
@@ -38,7 +38,7 @@ echo $num_caracteres . "<br>";
 
 # Exemplo 3 - Retorna = letras a partir de uma posição 
 $parte_texto = substr($texto, 0, 4);
-echo $partes_texto . "<br>";
+echo $parte_texto . "<br>";
 
 # Exemplo 5 - Retorna maiúsculas
 $texto_maiuscula = strtoupper($texto);
